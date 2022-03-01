@@ -11,7 +11,6 @@
     </div>
 </template>
 <script>
-import saveSurveyToPdf from "./pdf.js";
 import "survey-vue/modern.min.css";
 import {StylesManager, Model } from "survey-vue";
 import SurveyEditor from './SurveyEditor.vue'

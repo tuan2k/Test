@@ -290,6 +290,136 @@
 							</div>
 						</div>
 					</div>
+					<div class="row">
+						<div class="col-md-6 col-lg-3 col-sm-6">
+							<div class="dlab-box courses-bx">
+								<div class="dlab-media"> 
+									<img src="/static/assets/images/our-services/pic1.jpg" alt="">
+									<div class="user-info">
+										<img src="/static/assets/images/testimonials/pic1.jpg" alt="">
+										<h6 class="title">Jack Ronan</h6>
+										<div class="review">
+											<ul class="item-review">
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star-half-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+											<span>10 Review</span>
+										</div>
+									</div>
+								</div>
+								<div class="dlab-info">
+									<h6 class="dlab-title"><a href="courses-details.html">Learn Python – Interactive Python Tutorial</a></h6>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+									<div class="courses-info">
+										<ul>
+											<li><i class="fa fa-users"></i> 20 Student </li>
+										</ul>
+										<span class="price">$79.00</span>
+										<router-link to="survey/do" class="btn-sm btn-info">Thực hiện</router-link>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 col-sm-6">
+							<div class="dlab-box courses-bx">
+								<div class="dlab-media"> 
+									<img src="/static/assets/images/our-services/pic2.jpg" alt="">
+									<div class="user-info">
+										<img src="/static/assets/images/testimonials/pic2.jpg" alt="">
+										<h6 class="title">Jack Ronan</h6>
+										<div class="review">
+											<ul class="item-review">
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star-half-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+											<span>10 Review</span>
+										</div>
+									</div>
+								</div>
+								<div class="dlab-info">
+									<h6 class="dlab-title"><a href="courses-details.html">Learn Python – Interactive Python Tutorial</a></h6>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+									<div class="courses-info">
+										<ul>
+											<li><i class="fa fa-users"></i> 20 Student </li>
+										</ul>
+										<span class="price">$79.00</span>
+										<router-link to="survey/do" class="btn-sm btn-info">Thực hiện</router-link>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 col-sm-6">
+							<div class="dlab-box courses-bx">
+								<div class="dlab-media"> 
+									<img src="/static/assets/images/our-services/pic3.jpg" alt="">
+									<div class="user-info">
+										<img src="/static/assets/images/testimonials/pic3.jpg" alt="">
+										<h6 class="title">Jack Ronan</h6>
+										<div class="review">
+											<ul class="item-review">
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star-half-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+											<span>10 Review</span>
+										</div>
+									</div>
+								</div>
+								<div class="dlab-info">
+									<h6 class="dlab-title"><a href="courses-details.html">Learn Python – Interactive Python Tutorial</a></h6>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+									<div class="courses-info">
+										<ul>
+											<li><i class="fa fa-users"></i> 20 Student </li>
+										</ul>
+										<span class="price">$79.00</span>
+										<router-link to="survey/do" class="btn-sm btn-info">Thực hiện</router-link>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 col-sm-6">
+							<div class="dlab-box courses-bx">
+								<div class="dlab-media"> 
+									<img src="/static/assets/images/our-services/pic4.jpg" alt="">
+									<div class="user-info">
+										<img src="/static/assets/images/testimonials/pic2.jpg" alt="">
+										<h6 class="title">Jack Ronan</h6>
+										<div class="review">
+											<ul class="item-review">
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star"></i></li>
+												<li><i class="fa fa-star-half-o"></i></li>
+												<li><i class="fa fa-star-o"></i></li>
+											</ul>
+											<span>10 Review</span>
+										</div>
+									</div>
+								</div>
+								<div class="dlab-info">
+									<h6 class="dlab-title"><a href="courses-details.html">Learn Python – Interactive Python Tutorial</a></h6>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+									<div class="courses-info">
+										<ul>
+											<li><i class="fa fa-users"></i> 20 Student </li>
+										</ul>
+										<span class="price">$79.00</span>
+										<router-link to="survey/do" class="btn-sm btn-info">Thực hiện</router-link>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>	
 			</div>
 			<div class="section-full bg-white content-inner">
@@ -300,7 +430,7 @@
                         </div>
                         <div class="col-lg-8">
                             <div class="section-head">
-								<h2 class="title"> Welcome To University</h2>
+								<h2 class="title"> Welcome To ESurvey System</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 							</div>
                             <div class="row"> 

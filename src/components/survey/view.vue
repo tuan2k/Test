@@ -11,6 +11,7 @@
             </div>
             <div id="surveyElement" style="display:inline-block;width:100%;"></div>
             <div id="surveyResult"></div>
+            <div class="space"></div>
         </div>
     </div>
 </template>
@@ -123,5 +124,8 @@ export default {
 #home {
   margin-left: 50px;
   margin-right: 50px;
+}
+.space {
+    margin-bottom: 50px;
 }
 </style>

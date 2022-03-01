@@ -39,7 +39,7 @@
 											<router-link to="/survey/view" class="btn-info btn-sm">Xem</router-link>
                                             <router-link to="/survey/analysis" class="btn-primary btn-sm">Phân tích</router-link>
                                             <span class="btn-danger btn-sm" v-on:click="deleteSurvey(1)">Xóa</span>
-									</div>
+										</div>
 									</div>
                                 </div>
                             </div>
@@ -68,11 +68,11 @@
 												<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
 											</ul>
 										</div>
-										<ul class="dlab-social-icon dez-border">
-											<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
-											<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
-											<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
-										</ul>
+										<div class="trey-heo-icon">
+											<router-link to="/survey/view" class="btn-info btn-sm">Xem</router-link>
+                                            <router-link to="/survey/analysis" class="btn-primary btn-sm">Phân tích</router-link>
+                                            <span class="btn-danger btn-sm" v-on:click="deleteSurvey(1)">Xóa</span>
+										</div>
 									</div>
                                 </div>
                             </div>
@@ -101,11 +101,11 @@
 												<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
 											</ul>
 										</div>
-										<ul class="dlab-social-icon dez-border">
-											<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
-											<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
-											<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
-										</ul>
+										<div class="trey-heo-icon">
+											<router-link to="/survey/view" class="btn-info btn-sm">Xem</router-link>
+                                            <router-link to="/survey/analysis" class="btn-primary btn-sm">Phân tích</router-link>
+                                            <span class="btn-danger btn-sm" v-on:click="deleteSurvey(1)">Xóa</span>
+										</div>
 									</div>
                                 </div>
                             </div>
@@ -134,11 +134,11 @@
 												<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
 											</ul>
 										</div>
-										<ul class="dlab-social-icon dez-border">
-											<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
-											<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
-											<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
-										</ul>
+										<div class="trey-heo-icon">
+											<router-link to="/survey/view" class="btn-info btn-sm">Xem</router-link>
+                                            <router-link to="/survey/analysis" class="btn-primary btn-sm">Phân tích</router-link>
+                                            <span class="btn-danger btn-sm" v-on:click="deleteSurvey(1)">Xóa</span>
+										</div>
 									</div>
                                 </div>
                             </div>
@@ -167,11 +167,11 @@
 												<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
 											</ul>
 										</div>
-										<ul class="dlab-social-icon dez-border">
-											<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
-											<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
-											<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
-										</ul>
+										<div class="trey-heo-icon">
+											<router-link to="/survey/view" class="btn-info btn-sm">Xem</router-link>
+                                            <router-link to="/survey/analysis" class="btn-primary btn-sm">Phân tích</router-link>
+                                            <span class="btn-danger btn-sm" v-on:click="deleteSurvey(1)">Xóa</span>
+										</div>
 									</div>
                                 </div>
                             </div>
@@ -200,11 +200,11 @@
 												<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
 											</ul>
 										</div>
-										<ul class="dlab-social-icon dez-border">
-											<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
-											<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
-											<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
-										</ul>
+										<div class="trey-heo-icon">
+											<router-link to="/survey/view" class="btn-info btn-sm">Xem</router-link>
+                                            <router-link to="/survey/analysis" class="btn-primary btn-sm">Phân tích</router-link>
+                                            <span class="btn-danger btn-sm" v-on:click="deleteSurvey(1)">Xóa</span>
+										</div>
 									</div>
                                 </div>
                             </div>
@@ -233,11 +233,11 @@
 												<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
 											</ul>
 										</div>
-										<ul class="dlab-social-icon dez-border">
-											<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
-											<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
-											<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
-										</ul>
+										<div class="trey-heo-icon">
+											<router-link to="/survey/view" class="btn-info btn-sm">Xem</router-link>
+                                            <router-link to="/survey/analysis" class="btn-primary btn-sm">Phân tích</router-link>
+                                            <span class="btn-danger btn-sm" v-on:click="deleteSurvey(1)">Xóa</span>
+										</div>
 									</div>
                                 </div>
                             </div>
@@ -266,11 +266,11 @@
 												<li class="post-date"> <i class="la la-clock"></i> <strong>01 June</strong> <span> 2020</span> </li>
 											</ul>
 										</div>
-										<ul class="dlab-social-icon dez-border">
-											<li><a class="site-button facebook circle-sm fa fa-facebook" href="javascript:void(0);"></a></li>
-											<li><a class="site-button twitter circle-sm fa fa-twitter " href="javascript:void(0);"></a></li>
-											<li><a class="site-button linkedin circle-sm fa fa-linkedin " href="javascript:void(0);"></a></li>
-										</ul>
+										<div class="trey-heo-icon">
+											<router-link to="/survey/view" class="btn-info btn-sm">Xem</router-link>
+                                            <router-link to="/survey/analysis" class="btn-primary btn-sm">Phân tích</router-link>
+                                            <span class="btn-danger btn-sm" v-on:click="deleteSurvey(1)">Xóa</span>
+										</div>
 									</div>
                                 </div>
                             </div>
