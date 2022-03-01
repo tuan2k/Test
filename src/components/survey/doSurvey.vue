@@ -53,13 +53,13 @@ let surveyJson = {
     {
      "type": "text",
      "name": "question4",
-     "title": "Bạn là ai hả?",
+     "title": "Bạn là nam hay nữ?",
      "isRequired": true
     },
     {
      "type": "checkbox",
      "name": "question5",
-     "title": "Bạn có những gì?",
+     "title": "Bạn có những gì nào?",
      "isRequired": true,
      "choices": [
       "item1",
@@ -70,7 +70,7 @@ let surveyJson = {
     {
      "type": "comment",
      "name": "question6",
-     "title": "Tại sao bạn ghét tôi?",
+     "title": "1 + 1 = ?",
      "isRequired": true
     }
    ]
