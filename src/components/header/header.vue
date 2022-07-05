@@ -12,8 +12,10 @@
 					</div>
 					<div class="dlab-topbar-right">
 						<ul>
-							<li><i class="la la-clock"></i>  Mon - Fri 8.00 - 18.00</li>
+							<li><i class="la la-clock"></i>Mon - Fri 8.00 - 18.00</li>
 							<li><i class="las la-envelope-open"></i>itvts@gmail.com</li>
+							<li v-show="this.isLogged"><i>Welcome  {{username}}</i></li>
+							<li v-show="this.isLogged"><button v-on:click="Logout" class="btn btn-primary btn-sm">Logout</button></li>
 						</ul>				
 					</div>
 				</div>
@@ -47,31 +49,19 @@
 						</div>
                         <ul class="nav navbar-nav">	
 							<li class="active">
-								<router-link to="/">Trang chủ</router-link>
+								<router-link to="/">Home</router-link>
 							</li>
 							<li>
-								<router-link to="/about">Về chúng tôi</router-link>
+								<router-link to="/about">About us</router-link>
 							</li>
 							<li>
-								<router-link to="/gallary">Giỏ NFT</router-link>
-							</li>
-							<li>
-								<router-link to="/myNFT">NFT của tôi</router-link>
-							</li>
-							<li>
-								<router-link to="/survey/list">Khảo sát của tôi</router-link>
-							</li>
-							<li>
-								<router-link to="/survey/create">Tạo khảo sát</router-link>
-							</li>
-							<li>
-								<router-link to="/history">Lịch sử</router-link>
+								<router-link to="/survey/list">My Survey</router-link>
 							</li>
 						</ul>
 						<div class="dlab-social-icon">
 							<ul>
 								<li><a class="site-button circle fa fa-facebook" href="javascript:void(0);"></a></li>
-								<li><a class="site-button  circle fa fa-twitter" href="javascript:void(0);"></a></li>
+								<li><a class="site-button circle fa fa-twitter" href="javascript:void(0);"></a></li>
 								<li><a class="site-button circle fa fa-linkedin" href="javascript:void(0);"></a></li>
 								<li><a class="site-button circle fa fa-instagram" href="javascript:void(0);"></a></li>
 							</ul>
@@ -93,4 +83,61 @@ $(document).ready(function () {
     });
 });
 
+import getWeb3 from '../../constants/getWeb3'
+import authAbi from '../../constants/authAbi.json'
+import SC from '../../constants/smartContractAddress'
+
+export default {
+  name: 'Header',
+  created(){
+	  this.isLogged = localStorage.getItem("isLogged");
+	  this.username = localStorage.getItem("name");
+	  console.log(this.isLogged);
+	  console.log(this.username);
+	  if ( this.isLogged ===  null || this.isLogged === false || this.isLogged === undefined){
+		  this.$router.push({name:"login"});
+	  }
+  },
+  data() {
+	  return {
+		  username: '',
+		  isLogged: false,
+	  };
+  },
+  methods: {
+	  Logout: async function(){
+		try {
+			const web3 = await getWeb3();
+			const accounts = await web3.eth.getAccounts();
+			console.log(accounts[0]);
+			const validateInstance = new web3.eth.Contract(
+				authAbi,
+				SC.ADDRESS_AUTHENTICAION
+			);
+			console.log("vo roi");
+			let check=false;
+			await validateInstance.methods.logoutPartner(accounts[0])
+			.send({from: accounts[0]})
+			.on("receipt", function(receipt) {
+				localStorage.removeItem("isLogged");
+				localStorage.removeItem("addressLogin");
+				console.log(receipt);
+				check = true;
+            })
+            .on("error", function(error) {
+				console.log("logout failed!!!")
+				console.log(error);
+            });
+			if (check === true) {
+				this.$router.push({name: "login"});
+			}
+		} catch (error) {
+			alert(
+			`Failed to load web3, accounts, or contract. Check console for details.`
+			);
+			console.error(error);
+		}
+	  }
+  }
+}
 </script>

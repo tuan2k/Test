@@ -9,21 +9,12 @@ import Register from '../components/auth/register'
 //Survey
 import listSurvey from '../components/survey/index'
 import createSurvey from '../components/survey/create'
-import editSurvey from '../components/survey/edit'
+import analysisSurvey from '../components/survey/analysis'
 import viewSurvey from '../components/survey/view'
 import doSurvey from '../components/survey/doSurvey'
 
-//history
-import History from '../components/history/index'
-
-//blog
-import myNFT from '../components/myNFT/index'
-
 //about
 import About from '../components/about/index'
-
-// galarry
-import Gallary from '../components/gallarry/index'
 
 // error
 import ErrorPage from '../components/error/index'
@@ -50,8 +41,8 @@ export default new Router({
           },
           {
             path: 'survey/analysis',
-            name: 'editSurvey',
-            component: editSurvey,
+            name: 'analysisSurvey',
+            component: analysisSurvey,
           },
           {
             path: 'survey/view',
@@ -69,25 +60,10 @@ export default new Router({
             component: listSurvey,
           },
           {
-            path: 'history',
-            name: 'history',
-            component: History,
-          },
-          {
             path: 'about',
             name: 'about',
             component: About,
-          },
-          {
-            path: 'myNFT',
-            name: 'myNFT',
-            component: myNFT,
-          },
-          {
-            path: 'gallary',
-            name: 'gallary',
-            component: Gallary,
-          },
+          }
       ]
     },
     {

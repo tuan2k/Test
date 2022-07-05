@@ -7,11 +7,11 @@
       >
         <div class="container">
           <div class="dlab-bnr-inr-entry align-m text-center">
-            <h1 class="text-white">Về chúng tôi</h1>
+            <h1 class="text-white">About us</h1>
             <div class="breadcrumb-row">
               <ul class="list-inline">
-                <li><router-link to="/">Trang chủ</router-link></li>
-                <li>Về chúng tôi</li>
+                <li><router-link to="/">Home</router-link></li>
+                <li>about us</li>
               </ul>
             </div>
           </div>
@@ -39,7 +39,7 @@
                     ></a>
                   </div>
                   <div class="info-bx">
-                    <p>About EduZone</p>
+                    <p>About ESurvey</p>
                   </div>
                 </div>
               </div>
@@ -47,26 +47,19 @@
                 <div class="content-bx">
                   <h2 class="m-b15 title">
                     A company involved in<br /><span class="text-primary">
-                      service, maintenance</span
+                      service, crypto</span
                     >
                   </h2>
                   <p class="m-b20">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry has been the industry's standard dummy
-                    text ever since the been when an unknown printer There are
-                    many variations of passages of Lorem Ipsum available, but
-                    the majority have suffered alteration in some form.
+                    We support many service about blokchain to ours customers.
+                    We help them know more about blockchain and help them to
+                    improve theirs service by blockchain technology.
                   </p>
-                  <h6 class="m-b20">Best Education For EduZone University</h6>
+                  <h6 class="m-b20">Best Blockchain Service</h6>
                   <div class="d-flex align-items-center">
-                    <a
-                      href="javascript:void(0);"
-                      class="site-button m-r30 radius-no"
-                      >Read More</a
-                    >
                     <div class="phone">
                       <i class="fa fa-volume-control-phone"></i>
-                      <span>+91 (123) 456 7890</span>
+                      <span>+84 898325907</span>
                     </div>
                   </div>
                 </div>
@@ -81,82 +74,88 @@
           <div class="container">
             <div class="row">
               <div
-                class="col-md-3 col-lg-3 m-b30 col-sm-6 col-6 wow fadeInUp counter-style-5"
+                class="col-md-3 col-lg-3 col-sm-6 col-6 m-b30 wow fadeInUp counter-style-5"
                 data-wow-duration="2s"
                 data-wow-delay="0.2s"
               >
                 <div class="icon-bx-wraper center">
                   <div class="icon-content">
-                    <h2 class="dlab-tilte counter">1226</h2>
-                    <p>Happy Students</p>
+                    <h2 class="dlab-tilte counter">1107</h2>
+                    <p>Survey</p>
                   </div>
                 </div>
               </div>
               <div
-                class="col-md-3 col-lg-3 m-b30 col-sm-6 col-6 wow fadeInUp counter-style-5"
+                class="col-md-3 col-lg-3 col-sm-6 col-6 m-b30 wow fadeInUp counter-style-5"
                 data-wow-duration="2s"
                 data-wow-delay="0.4s"
               >
                 <div class="icon-bx-wraper center">
                   <div class="icon-content">
                     <h2 class="dlab-tilte counter">1552</h2>
-                    <p>Approved Courses</p>
+                    <p>Million token</p>
                   </div>
                 </div>
               </div>
               <div
-                class="col-md-3 col-lg-3 m-b30 col-sm-6 col-6 wow fadeInUp counter-style-5"
+                class="col-md-3 col-lg-3 col-sm-6 col-6 m-b30 wow fadeInUp counter-style-5"
                 data-wow-duration="2s"
                 data-wow-delay="0.6s"
               >
                 <div class="icon-bx-wraper center">
                   <div class="icon-content">
-                    <h2 class="dlab-tilte counter">1156</h2>
-                    <p>Certified Teachers</p>
+                    <h2 class="dlab-tilte counter">207</h2>
+                    <p>Partner</p>
                   </div>
                 </div>
               </div>
               <div
-                class="col-md-3 col-lg-3 m-b30 col-sm-6 col-6 wow fadeInUp counter-style-5"
+                class="col-md-3 col-lg-3 col-sm-6 col-6 m-b30 wow fadeInUp counter-style-5"
                 data-wow-duration="2s"
                 data-wow-delay="0.6s"
               >
                 <div class="icon-bx-wraper center">
                   <div class="icon-content">
-                    <h2 class="dlab-tilte counter">2100</h2>
-                    <p>Graduate Students</p>
+                    <h2 class="dlab-tilte counter">21000</h2>
+                    <p>Survey Result</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="section-full text-center bg-white content-inner">
+        <div class="section-full bg-gray content-inner">
           <div class="container">
-            <div class="section-head text-black text-center">
-              <h2 class="title">Our Teacher</h2>
+            <div class="section-head text-center ">
+              <h2 class="title">Meet The Teacher</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry has been the industry's standard dummy text ever since
-                the been when an unknown printer.
+                There are many members in our platform. But now I will show you
+                about ESurvey key members
               </p>
             </div>
             <div class="row">
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div
+                class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.2s"
+              >
                 <div class="dlab-box m-b30 dlab-team1">
                   <div class="dlab-media">
-                    <a href="javascript:;">
+                    <a href="teachers-profile.html">
                       <img
+                        id="IdOfMyImage"
                         width="358"
                         height="460"
                         alt=""
-                        src="images/our-team/pic1.jpg"
+                        src="images/our-team/preview.jpg"
+                        class="lazy"
+                        data-src="images/our-team/pic17.jpg"
                       />
                     </a>
                   </div>
                   <div class="dlab-info">
                     <h4 class="dlab-title">
-                      <a href="teachers-profile.html">Nashid Martines</a>
+                      <a href="teachers-profile.html">Trey Nguyen</a>
                     </h4>
                     <span class="dlab-position">Director</span>
                     <ul class="dlab-social-icon dez-border">
@@ -185,21 +184,28 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div
+                class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.4s"
+              >
                 <div class="dlab-box m-b30 dlab-team1">
                   <div class="dlab-media">
-                    <a href="javascript:;">
+                    <a href="teachers-profile.html">
                       <img
+                        id="IdOfHeoImage"
                         width="358"
                         height="460"
                         alt=""
-                        src="images/our-team/pic2.jpg"
+                        src="images/our-team/preview.jpg"
+                        class="lazy"
+                        data-src="images/our-team/pic16.jpg"
                       />
                     </a>
                   </div>
                   <div class="dlab-info">
                     <h4 class="dlab-title">
-                      <a href="teachers-profile.html">Konne Backfield</a>
+                      <a href="teachers-profile.html">Khanh Le</a>
                     </h4>
                     <span class="dlab-position">Designer</span>
                     <ul class="dlab-social-icon dez-border">
@@ -228,21 +234,28 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div
+                class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
                 <div class="dlab-box m-b30 dlab-team1">
                   <div class="dlab-media">
-                    <a href="javascript:;">
+                    <a href="teachers-profile.html">
                       <img
+                        id="IdOfLuisImage"
                         width="358"
                         height="460"
                         alt=""
-                        src="images/our-team/pic3.jpg"
+                        src="images/our-team/preview.jpg"
+                        class="lazy"
+                        data-src="images/our-team/pic15.jpg"
                       />
                     </a>
                   </div>
                   <div class="dlab-info">
                     <h4 class="dlab-title">
-                      <a href="teachers-profile.html">Hackson Willingham</a>
+                      <a href="teachers-profile.html">Luis Nguyen</a>
                     </h4>
                     <span class="dlab-position">Developer</span>
                     <ul class="dlab-social-icon dez-border">
@@ -271,21 +284,27 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-6">
+              <div
+                class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.8s"
+              >
                 <div class="dlab-box m-b30 dlab-team1">
-                  <div class="dlab-media">
-                    <a href="javascript:;">
+                  <div class="dlab-media img">
+                    <a href="teachers-profile.html">
                       <img
-                        width="358"
-                        height="460"
+                        id="IdOfLeoImage"
+                        width="357"
+                        height="700"
                         alt=""
-                        src="images/our-team/pic4.jpg"
+                        src=""
+                        class="lazy img"
                       />
                     </a>
                   </div>
                   <div class="dlab-info">
                     <h4 class="dlab-title">
-                      <a href="teachers-profile.html">Konne Backfield</a>
+                      <a href="teachers-profile.html">Leo Lee</a>
                     </h4>
                     <span class="dlab-position">Manager</span>
                     <ul class="dlab-social-icon dez-border">
@@ -317,249 +336,120 @@
             </div>
           </div>
         </div>
-        <div
-          class="section-full content-inner bg-gray wow fadeIn"
-          data-wow-duration="2s"
-          data-wow-delay="0.4s"
-        >
-          <div class="container">
-            <div class="section-head text-center">
-              <h2 class="title">Latest blog post</h2>
-              <p>
-                There are many variations of passages of Lorem Ipsum typesetting
-                industry has been the industry's standard dummy text ever since
-                the been when an unknown printer.
-              </p>
-            </div>
-            <div class="blog-carousel owl-none owl-carousel">
-              <div class="item">
-                <div
-                  class="blog-post blog-grid blog-rounded blog-effect1 post-style-1"
-                >
-                  <div class="dlab-post-media dlab-img-effect">
-                    <a href="blog-single.html"
-                      ><img src="images/blog/grid/pic2.jpg" alt=""
-                    /></a>
-                  </div>
-                  <div class="dlab-info p-a20">
-                    <div class="dlab-post-meta">
-                      <ul>
-                        <li class="post-author">
-                          <i class="la la-user-circle"></i> By
-                          <a href="javascript:void(0);">Reuben</a>
-                        </li>
-                        <li class="post-tag">
-                          <a href="javascript:void(0);">Event</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="dlab-post-title">
-                      <h4 class="post-title">
-                        <a href="blog-single.html"
-                          >The Shocking Revelation of Education.</a
-                        >
-                      </h4>
-                    </div>
-                    <div class="dlab-post-text">
-                      <p>
-                        All the Lorem Ipsum generators on the Internet tend to
-                        repeat predefined chunks as necessary.
-                      </p>
-                    </div>
-                    <div class="post-footer">
-                      <div class="dlab-post-meta">
-                        <ul>
-                          <li class="post-date">
-                            <i class="la la-clock"></i>
-                            <strong>01 June</strong> <span> 2020</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <ul class="dlab-social-icon dez-border">
-                        <li>
-                          <a
-                            class="site-button facebook circle-sm fa fa-facebook"
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            class="site-button twitter circle-sm fa fa-twitter "
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            class="site-button linkedin circle-sm fa fa-linkedin "
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            class="site-button instagram circle-sm fa fa-instagram  "
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div
-                  class="blog-post blog-grid blog-rounded blog-effect1 post-style-1"
-                >
-                  <div class="dlab-post-media dlab-img-effect">
-                    <a href="blog-single.html"
-                      ><img src="images/blog/grid/pic3.jpg" alt=""
-                    /></a>
-                  </div>
-                  <div class="dlab-info p-a20">
-                    <div class="dlab-post-meta">
-                      <ul>
-                        <li class="post-author">
-                          <i class="la la-user-circle"></i> By
-                          <a href="javascript:void(0);">Caroline</a>
-                        </li>
-                        <li class="post-tag">
-                          <a href="javascript:void(0);">Education</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="dlab-post-title ">
-                      <h4 class="post-title">
-                        <a href="blog-single.html"
-                          >Five Things Nobody Told You About</a
-                        >
-                      </h4>
-                    </div>
-                    <div class="dlab-post-text">
-                      <p>
-                        All the Lorem Ipsum generators on the Internet tend to
-                        repeat predefined chunks as necessary.
-                      </p>
-                    </div>
-                    <div class="post-footer">
-                      <div class="dlab-post-meta">
-                        <ul>
-                          <li class="post-date">
-                            <i class="la la-clock"></i>
-                            <strong>01 June</strong> <span> 2020</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <ul class="dlab-social-icon dez-border">
-                        <li>
-                          <a
-                            class="site-button facebook circle-sm fa fa-facebook"
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            class="site-button twitter circle-sm fa fa-twitter "
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            class="site-button linkedin circle-sm fa fa-linkedin "
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            class="site-button instagram circle-sm fa fa-instagram  "
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div
-                  class="blog-post blog-grid blog-rounded blog-effect1 post-style-1"
-                >
-                  <div class="dlab-post-media dlab-img-effect">
-                    <a href="blog-single.html"
-                      ><img src="images/blog/grid/pic4.jpg" alt=""
-                    /></a>
-                  </div>
-                  <div class="dlab-info p-a20">
-                    <div class="dlab-post-meta">
-                      <ul>
-                        <li class="post-author">
-                          <i class="la la-user-circle"></i> By
-                          <a href="javascript:void(0);">Harry</a>
-                        </li>
-                        <li class="post-tag">
-                          <a href="javascript:void(0);">knowledge</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="dlab-post-title ">
-                      <h4 class="post-title">
-                        <a href="blog-single.html"
-                          >Here's What People Are Saying About</a
-                        >
-                      </h4>
-                    </div>
-                    <div class="dlab-post-text">
-                      <p>
-                        All the Lorem Ipsum generators on the Internet tend to
-                        repeat predefined chunks as necessary.
-                      </p>
-                    </div>
-                    <div class="post-footer">
-                      <div class="dlab-post-meta">
-                        <ul>
-                          <li class="post-date">
-                            <i class="la la-clock"></i>
-                            <strong>01 June</strong> <span> 2020</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <ul class="dlab-social-icon dez-border">
-                        <li>
-                          <a
-                            class="site-button facebook circle-sm fa fa-facebook"
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            class="site-button twitter circle-sm fa fa-twitter "
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            class="site-button linkedin circle-sm fa fa-linkedin "
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            class="site-button instagram circle-sm fa fa-instagram  "
-                            href="javascript:void(0);"
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
 </template>
 <script>
+import getWeb3 from "../../constants/getWeb3";
+import abi from "../../constants/abi.json";
+import SC from "../../constants/smartContractAddress";
+
+const ipfsClient = require("ipfs-http-client");
+
+const ipfs = ipfsClient({
+  host: "ipfs.infura.io",
+  port: "5001",
+  protocol: "https"
+});
+
 export default {
-  name: "about"
+  name: "about",
+  async created() {
+    await this.getMyImage();
+    await this.getHeoImage();
+    await this.getLeoImage();
+    await this.getLuisImage();
+  },
+  methods: {
+    getMyImage: async function() {
+      // get image in ipfs
+      const chunks = [];
+      const result = await ipfs.cat(
+        "QmfS2X6kKVsp9CRk6cBbxWd93Z7grhzn4XYxKuN3NtXRHf"
+      );
+      for (const chunk of result) {
+        chunks.push(chunk);
+      }
+      var bytes = new Uint8Array(chunks);
+      var image = document.getElementById("IdOfMyImage");
+      image.src = "data:image/png;base64," + this.encode(bytes);
+    },
+     getHeoImage: async function() {
+      // get image in ipfs
+      const chunks = [];
+      const result = await ipfs.cat(
+        "QmX9ErZ3hCk5FCwHWBfHZkTq9qNWoVzUmFHwXg6nzpyj4k"
+      );
+      for (const chunk of result) {
+        chunks.push(chunk);
+      }
+      var bytes = new Uint8Array(chunks);
+      var image = document.getElementById("IdOfHeoImage");
+      image.src = "data:image/png;base64," + this.encode(bytes);
+    },
+    getLuisImage: async function() {
+      // get image in ipfs
+      const chunks = [];
+      const result = await ipfs.cat(
+        "QmUL22izCLNiYJY92CvhHRKjzZC887kpkvC81RfyYHbs88"
+      );
+      for (const chunk of result) {
+        chunks.push(chunk);
+      }
+      var bytes = new Uint8Array(chunks);
+      var image = document.getElementById("IdOfLuisImage");
+      image.src = "data:image/png;base64," + this.encode(bytes);
+    },
+     getLeoImage: async function() {
+      // get image in ipfs
+      const chunks = [];
+      const result = await ipfs.cat(
+        "QmQ3DvZHbx2qvS2sNsPnpX88moVG47k85bijGWoWr7EAhy"
+      );
+      for (const chunk of result) {
+        chunks.push(chunk);
+      }
+      var bytes = new Uint8Array(chunks);
+      var image = document.getElementById("IdOfLeoImage");
+      image.src = "data:image/png;base64," + this.encode(bytes);
+    },
+    encode(input) {
+      var keyStr =
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+      var output = "";
+      var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+      var i = 0;
+
+      while (i < input.length) {
+        chr1 = input[i++];
+        chr2 = i < input.length ? input[i++] : Number.NaN; // Not sure if the index
+        chr3 = i < input.length ? input[i++] : Number.NaN; // checks are needed here
+
+        enc1 = chr1 >> 2;
+        enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+        enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+        enc4 = chr3 & 63;
+
+        if (isNaN(chr2)) {
+          enc3 = enc4 = 64;
+        } else if (isNaN(chr3)) {
+          enc4 = 64;
+        }
+        output +=
+          keyStr.charAt(enc1) +
+          keyStr.charAt(enc2) +
+          keyStr.charAt(enc3) +
+          keyStr.charAt(enc4);
+      }
+      return output;
+    }
+  }
 };
 </script>
+<style scoped>
+.img{
+   width: 300px;
+   height: 500px;
+}
+</style>

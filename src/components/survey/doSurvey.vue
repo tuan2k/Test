@@ -1,87 +1,43 @@
 <template>
+  <div>
+    <b-button variant="primary" v-show="loading" class="load">
+      <b-spinner type="grow"></b-spinner>
+      Loading...
+    </b-button>
     <div>
-        <div>
-            <Survey :survey="survey" />
-        </div>
+      <Survey :survey="survey" />
     </div>
+  </div>
 </template>
 <script>
-
-
 import "survey-vue/modern.min.css";
-import {Survey,StylesManager, Model } from "survey-vue"
+import { Survey, StylesManager, Model } from "survey-vue";
 
 StylesManager.applyTheme("modern");
-let surveyJson = {
- "pages": [
-  {
-   "name": "Trang 1",
-   "elements": [
-    {
-     "type": "text",
-     "name": "question1",
-     "title": "Bạn tên là gì?",
-     "isRequired": true
-    },
-    {
-     "type": "checkbox",
-     "name": "question2",
-     "title": "Ai là người đẹp trai nhất?",
-     "isRequired": true,
-     "choices": [
-      "item1",
-      "item2",
-      "item3"
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question3",
-     "title": "Bạn có bao nhiêu người yêu!!!",
-     "isRequired": true,
-     "choices": [
-      "item1",
-      "item2",
-      "item3"
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Trang 2",
-   "elements": [
-    {
-     "type": "text",
-     "name": "question4",
-     "title": "Bạn là nam hay nữ?",
-     "isRequired": true
-    },
-    {
-     "type": "checkbox",
-     "name": "question5",
-     "title": "Bạn có những gì nào?",
-     "isRequired": true,
-     "choices": [
-      "item1",
-      "item2",
-      "item3"
-     ]
-    },
-    {
-     "type": "comment",
-     "name": "question6",
-     "title": "1 + 1 = ?",
-     "isRequired": true
-    }
-   ]
-  }
- ]
-} 
+let surveyJson = window.localStorage.getItem("doSurvey");
+
+import getWeb3 from "../../constants/getWeb3";
+import abi from "../../constants/abi.json";
+import surveyAbi from "../../constants/surveyAbi.json";
+import SC from "../../constants/smartContractAddress";
+
+const ipfsClient = require("ipfs-http-client");
+
+const ipfs = ipfsClient({
+  host: "ipfs.infura.io",
+  port: "5001",
+  protocol: "https"
+});
 
 export default {
-  name: 'doSurvey',
+  name: "doSurvey",
+  created() {
+    console.log(this.$route.params.data);
+    this.surveys = this.$route.params.data;
+    console.log(this.surveys);
+  },
   components: {
-    Survey,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    Survey
   },
   data() {
     const survey = new Model(surveyJson);
@@ -91,17 +47,49 @@ export default {
 
     // calfunctionl  save data into IPFS
     return {
-        survey,
-        result : {},
-        json: {}
+      survey,
+      surveys: {},
+      result: {},
+      json: {},
+      loading: false
     };
   },
   methods: {
-    alertResults(sender) {
+    alertResults: async function(sender) {
+      const idSurvey = localStorage.getItem("IdSurvey");
+      console.log(sender.data);
+      console.log(idSurvey);
       const results = JSON.stringify(sender.data);
       this.result = results;
-      alert(results);
+      const jsonStr = JSON.stringify(this.result);
+      const buf = Buffer.from(jsonStr);
+      const cid = await ipfs.add(buf);
+      console.log(cid);
+      console.log("IPFS cid:", cid[0].path);
+      const web3 = await getWeb3();
+      const accounts = await web3.eth.getAccounts();
+      const instance = new web3.eth.Contract(surveyAbi, SC.ADDRESS_SURVEY);
+      this.loading = true;
+      const result = await instance.methods
+        .saveSurveyResult(idSurvey, cid[0].path)
+        .send({ from: accounts[0] });
+      console.log(result);
+      this.loading = false;
+      this.$swal.fire({
+        icon: "success",
+        title: "Your work has been saved!!!",
+        text: "You will receive gift soon. Thank you so much!!!",
+        showConfirmButton: false,
+        timer: 2000
+      });
+      this.$router.push({ name: "home" });
     }
-  },
-}
+  }
+};
 </script>
+<style scoped>
+.load {
+  margin-left: 700px;
+  margin-right: 200px;
+}
+</style>
