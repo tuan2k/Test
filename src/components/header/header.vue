@@ -6,14 +6,16 @@
 				<div class="row d-flex justify-content-between align-items-center">
 					<div class="dlab-topbar-left">
 						<ul>
-							<li><i class="la la-phone-volume"></i> +84 898325907</li>
-							<li><i class="las la-map-marker"></i>271 Nguyễn Văn Linh - Đà Nẵng</li>
+							<!-- <li><i class="la la-phone-volume"></i> +84 898325907</li> -->
+							<!-- <li><i class="las la-map-marker"></i>271 Nguyễn Văn Linh - Đà Nẵng</li> -->
 						</ul>
 					</div>
-					<div class="dlab-topbar-right">
+					<div class="dlab-topbar-right right">
 						<ul>
-							<li><i class="la la-clock"></i>  Mon - Fri 8.00 - 18.00</li>
+							<li><i class="la la-clock"></i>Mon - Fri 8.00 - 18.00</li>
 							<li><i class="las la-envelope-open"></i>itvts@gmail.com</li>
+							<li v-show="this.isLogged"><i>Chào mừng  {{username}}</i></li>
+							<li v-show="this.isLogged"><button v-on:click="Logout" class="btn btn-primary btn-sm">Đăng xuất</button></li>
 						</ul>				
 					</div>
 				</div>
@@ -53,25 +55,16 @@
 								<router-link to="/about">Về chúng tôi</router-link>
 							</li>
 							<li>
-								<router-link to="/gallary">Giỏ NFT</router-link>
-							</li>
-							<li>
-								<router-link to="/myNFT">NFT của tôi</router-link>
-							</li>
-							<li>
 								<router-link to="/survey/list">Khảo sát của tôi</router-link>
 							</li>
 							<li>
-								<router-link to="/survey/create">Tạo khảo sát</router-link>
-							</li>
-							<li>
-								<router-link to="/history">Lịch sử</router-link>
+								<a href="https://app.uniswap.org/#/swap?chain=ropsten">Đổi token hệ thống</a>
 							</li>
 						</ul>
 						<div class="dlab-social-icon">
 							<ul>
 								<li><a class="site-button circle fa fa-facebook" href="javascript:void(0);"></a></li>
-								<li><a class="site-button  circle fa fa-twitter" href="javascript:void(0);"></a></li>
+								<li><a class="site-button circle fa fa-twitter" href="javascript:void(0);"></a></li>
 								<li><a class="site-button circle fa fa-linkedin" href="javascript:void(0);"></a></li>
 								<li><a class="site-button circle fa fa-instagram" href="javascript:void(0);"></a></li>
 							</ul>
@@ -93,4 +86,67 @@ $(document).ready(function () {
     });
 });
 
+import getWeb3 from '../../constants/getWeb3'
+import authAbi from '../../constants/authAbi.json'
+import SC from '../../constants/smartContractAddress'
+
+export default {
+  name: 'Header',
+  created(){
+	  this.isLogged = localStorage.getItem("isLogged");
+	  this.username = localStorage.getItem("name");
+	  console.log(this.isLogged);
+	  console.log(this.username);
+	  if ( this.isLogged ===  null || this.isLogged === false || this.isLogged === undefined){
+		  this.$router.push({name:"login"});
+	  }
+  },
+  data() {
+	  return {
+		  username: '',
+		  isLogged: false,
+	  };
+  },
+  methods: {
+	  Logout: async function(){
+		try {
+			const web3 = await getWeb3();
+			const accounts = await web3.eth.getAccounts();
+			console.log(accounts[0]);
+			const validateInstance = new web3.eth.Contract(
+				authAbi,
+				SC.ADDRESS_AUTHENTICAION
+			);
+			console.log("vo roi");
+			let check=false;
+			await validateInstance.methods.logoutPartner(accounts[0])
+			.send({from: accounts[0]})
+			.on("receipt", function(receipt) {
+				localStorage.removeItem("isLogged");
+				localStorage.removeItem("addressLogin");
+				console.log(receipt);
+				check = true;
+            })
+            .on("error", function(error) {
+				console.log("logout failed!!!")
+				console.log(error);
+            });
+			if (check === true) {
+				this.$router.push({name: "login"});
+			}
+		} catch (error) {
+			alert(
+			`Failed to load web3, accounts, or contract. Check console for details.`
+			);
+			console.error(error);
+		}
+	  }
+  }
+}
 </script>
+<style scoped>
+.right{
+	float: right;
+	margin-left: 1000px;
+}
+</style>
