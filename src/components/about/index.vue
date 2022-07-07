@@ -7,11 +7,16 @@
       >
         <div class="container">
           <div class="dlab-bnr-inr-entry align-m text-center">
-            <h1 class="text-white">Về chúng tôi</h1>
+            <h1 class="text-white">About us</h1>
             <div class="breadcrumb-row">
               <ul class="list-inline">
+<<<<<<< HEAD
                 <li><router-link to="/">Trang chủ</router-link></li>
                 <li>về chúng tôi</li>
+=======
+                <li><router-link to="/">Home</router-link></li>
+                <li>about us</li>
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
               </ul>
             </div>
           </div>
@@ -39,13 +44,18 @@
                     ></a>
                   </div>
                   <div class="info-bx">
+<<<<<<< HEAD
                     <p>Về ESurvey</p>
+=======
+                    <p>About ESurvey</p>
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                   </div>
                 </div>
               </div>
               <div class="col-lg-6 m-b30">
                 <div class="content-bx">
                   <h2 class="m-b15 title">
+<<<<<<< HEAD
                     Một công ty về<br /><span class="text-primary">
                       dịch vụ,tiền mã hóa</span
                     >
@@ -54,6 +64,18 @@
                     Chúng tôi hỗ trợ nhiều dịch vụ về blockchain cho khách hàng của mình. Chúng tôi giúp họ biết thêm về blockchain và giúp họ cải thiện dịch vụ của mình bằng công nghệ blockchain.
                   </p>
                   <h6 class="m-b20">Dịch vụ Blockchain tốt nhất</h6>
+=======
+                    A company involved in<br /><span class="text-primary">
+                      service, crypto</span
+                    >
+                  </h2>
+                  <p class="m-b20">
+                    We support many service about blokchain to ours customers.
+                    We help them know more about blockchain and help them to
+                    improve theirs service by blockchain technology.
+                  </p>
+                  <h6 class="m-b20">Best Blockchain Service</h6>
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                   <div class="d-flex align-items-center">
                     <div class="phone">
                       <i class="fa fa-volume-control-phone"></i>
@@ -91,7 +113,11 @@
                 <div class="icon-bx-wraper center">
                   <div class="icon-content">
                     <h2 class="dlab-tilte counter">1552</h2>
+<<<<<<< HEAD
                     <p>Triệu Token VSP</p>
+=======
+                    <p>Million token</p>
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                   </div>
                 </div>
               </div>
@@ -103,7 +129,11 @@
                 <div class="icon-bx-wraper center">
                   <div class="icon-content">
                     <h2 class="dlab-tilte counter">207</h2>
+<<<<<<< HEAD
                     <p>Đối tác</p>
+=======
+                    <p>Partner</p>
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                   </div>
                 </div>
               </div>
@@ -115,7 +145,11 @@
                 <div class="icon-bx-wraper center">
                   <div class="icon-content">
                     <h2 class="dlab-tilte counter">21000</h2>
+<<<<<<< HEAD
                     <p>Kết quả khảo sát</p>
+=======
+                    <p>Survey Result</p>
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                   </div>
                 </div>
               </div>
@@ -125,15 +159,28 @@
         <div class="section-full bg-gray content-inner">
           <div class="container">
             <div class="section-head text-center ">
+<<<<<<< HEAD
               <h2 class="title">Đội ngũ</h2>
               <p>
                 Có nhiều thành viên trong nền tảng của chúng tôi. Nhưng bây giờ tôi sẽ chỉ cho bạn
                  về các thành viên chủ chốt của ESurvey
+=======
+              <h2 class="title">Meet The Teacher</h2>
+              <p>
+                There are many members in our platform. But now I will show you
+                about ESurvey key members
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
               </p>
             </div>
             <div class="row">
               <div
+<<<<<<< HEAD
                 class="col-lg-3 col-md-12 col-sm-12 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.2s"
+              >
+=======
+                class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
                 data-wow-duration="2s"
                 data-wow-delay="0.2s"
               >
@@ -154,6 +201,119 @@
                   <div class="dlab-info">
                     <h4 class="dlab-title">
                       <a href="teachers-profile.html">Trey Nguyen</a>
+                    </h4>
+                    <span class="dlab-position">Director</span>
+                    <ul class="dlab-social-icon dez-border">
+                      <li>
+                        <a
+                          class="fa fa-facebook"
+                          href="javascript:void(0);"
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="fa fa-twitter" href="javascript:void(0);"></a>
+                      </li>
+                      <li>
+                        <a
+                          class="fa fa-linkedin"
+                          href="javascript:void(0);"
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="fa fa-pinterest"
+                          href="javascript:void(0);"
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.4s"
+              >
+                <div class="dlab-box m-b30 dlab-team1">
+                  <div class="dlab-media">
+                    <a href="teachers-profile.html">
+                      <img
+                        id="IdOfHeoImage"
+                        width="358"
+                        height="460"
+                        alt=""
+                        src="images/our-team/preview.jpg"
+                        class="lazy"
+                        data-src="images/our-team/pic16.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div class="dlab-info">
+                    <h4 class="dlab-title">
+                      <a href="teachers-profile.html">Khanh Le</a>
+                    </h4>
+                    <span class="dlab-position">Designer</span>
+                    <ul class="dlab-social-icon dez-border">
+                      <li>
+                        <a
+                          class="fa fa-facebook"
+                          href="javascript:void(0);"
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="fa fa-twitter" href="javascript:void(0);"></a>
+                      </li>
+                      <li>
+                        <a
+                          class="fa fa-linkedin"
+                          href="javascript:void(0);"
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          class="fa fa-pinterest"
+                          href="javascript:void(0);"
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
+                <div class="dlab-box m-b30 dlab-team1">
+                  <div class="dlab-media">
+                    <a href="teachers-profile.html">
+                      <img
+<<<<<<< HEAD
+                        id="IdOfMyImage"
+=======
+                        id="IdOfLuisImage"
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
+                        width="358"
+                        height="460"
+                        alt=""
+                        src="images/our-team/preview.jpg"
+                        class="lazy"
+<<<<<<< HEAD
+                        data-src="images/our-team/pic17.jpg"
+=======
+                        data-src="images/our-team/pic15.jpg"
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
+                      />
+                    </a>
+                  </div>
+                  <div class="dlab-info">
+                    <h4 class="dlab-title">
+<<<<<<< HEAD
+                      <a href="teachers-profile.html">Trey Nguyen</a>
+=======
+                      <a href="teachers-profile.html">Luis Nguyen</a>
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                     </h4>
                     <span class="dlab-position">CEO</span>
                     <ul class="dlab-social-icon dez-border">
@@ -183,6 +343,7 @@
                 </div>
               </div>
               <div
+<<<<<<< HEAD
                 class="col-lg-3 col-md-12 col-sm-12 wow fadeInUp"
                 data-wow-duration="2s"
                 data-wow-delay="0.4s"
@@ -198,12 +359,32 @@
                         src="images/our-team/preview.jpg"
                         class="lazy"
                         data-src="images/our-team/pic16.jpg"
+=======
+                class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.8s"
+              >
+                <div class="dlab-box m-b30 dlab-team1">
+                  <div class="dlab-media img">
+                    <a href="teachers-profile.html">
+                      <img
+                        id="IdOfLeoImage"
+                        width="357"
+                        height="700"
+                        alt=""
+                        src=""
+                        class="lazy img"
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                       />
                     </a>
                   </div>
                   <div class="dlab-info">
                     <h4 class="dlab-title">
+<<<<<<< HEAD
                       <a href="teachers-profile.html">Khanh Le</a>
+=======
+                      <a href="teachers-profile.html">Leo Lee</a>
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                     </h4>
                     <span class="dlab-position">Dev</span>
                     <ul class="dlab-social-icon dez-border">
@@ -349,6 +530,10 @@ export default {
 <style scoped>
 .img{
    width: 300px;
+<<<<<<< HEAD
    height: 700px;
+=======
+   height: 500px;
+>>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
 }
 </style>
