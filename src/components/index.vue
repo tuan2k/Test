@@ -5,11 +5,7 @@
         <div class="section-full bg-gray content-inner about-carousel-ser">
           <div class="container">
             <div class="section-head text-center">
-<<<<<<< HEAD
               <h2 class="title">KHẢO SÁT PHỔ BIẾN</h2>
-=======
-              <h2 class="title">POPULAR SURVEY</h2>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
             </div>
             <div class="row">
               <div
@@ -24,11 +20,7 @@
                         src="/static/assets/images/testimonials/pic1.jpg"
                         alt=""
                       /> -->
-<<<<<<< HEAD
                       <h6 class="title">Bởi {{ survey.name }}</h6>
-=======
-                      <h6 class="title">Jack Ronan</h6>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                       <div class="review">
                         <ul class="item-review">
                           <li><i class="fa fa-star"></i></li>
@@ -43,31 +35,17 @@
                   </div>
                   <div class="dlab-info">
                     <h6 class="dlab-title">
-<<<<<<< HEAD
                       <a href="courses-details.html">{{ survey.title.substring(0,30) }}...</a>
                     </h6>
                     <p>
                       {{ survey.description.substring(0,30) }}
-=======
-                      <a href="courses-details.html">{{ survey.title }}</a>
-                    </h6>
-                    <p>
-                      {{ survey.description }}
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                     </p>
                     <div class="courses-info">
                       <ul>
                         <li>
-<<<<<<< HEAD
                           <i class="fa fa-users"></i>{{ survey.number}}survey
                         </li>
                       </ul>
-=======
-                          <i class="fa fa-users"></i>{{ survey.number }} Surveys
-                        </li>
-                      </ul>
-                      <span class="price">$79.00</span>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                       <span
                         v-on:click="doSurvey(survey.id, survey.hash)"
                         class="btn-sm btn-info"
@@ -84,7 +62,6 @@
           <div class="container">
             <div class="row service-area-one">
               <div class="col-lg-4 m-b30 hidden-sm">
-<<<<<<< HEAD
                 
               </div>
               <div class="col-lg-8">
@@ -94,19 +71,6 @@
                    Chúng tôi hỗ trợ nhiều dịch vụ về blokchain cho khách hàng của chúng tôi.
                      Chúng tôi giúp họ biết thêm về blockchain và giúp họ
                      cải thiện dịch vụ của họ bằng công nghệ blockchain ..
-=======
-                <div class="rdx-thu">
-                  <img src="/static/assets/images/student1.png" alt="" />
-                </div>
-              </div>
-              <div class="col-lg-8">
-                <div class="section-head">
-                  <h2 class="title">Welcome To ESurvey System</h2>
-                  <p>
-                    We support many service about blokchain to ours customers.
-                    We help them know more about blockchain and help them to
-                    improve theirs service by blockchain technology..
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                   </p>
                 </div>
                 <div class="row">
@@ -118,19 +82,11 @@
                         ></a>
                       </div>
                       <div class="icon-content">
-<<<<<<< HEAD
                         <h5 class="rdx-tilte">Giáo dục đặc biệt</h5>
                         <p>
                           Đây là một trong những chủ đề cần khảo sát nhiều nhất.
                            Vì vậy, cải thiện môi trường giáo dục và phát triển
                            sinh viên.
-=======
-                        <h5 class="rdx-tilte">Special Education</h5>
-                        <p>
-                          This is one the the most theme need a lot of survey.
-                          So that improve education enviroment and develope
-                          students.
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                         </p>
                       </div>
                     </div>
@@ -143,21 +99,12 @@
                         ></a>
                       </div>
                       <div class="icon-content">
-<<<<<<< HEAD
                         <h5 class="rdx-tilte">Kinh tế</h5>
                         <p>
                           Trong khoa Kinh tế, thông tin thực sự là
                            tầm quan trọng là có cơ hội phát triển và phát triển
                            việc kinh doanh. Do đó, kết quả khảo sát là một phần của
                            Phòng ban.
-=======
-                        <h5 class="rdx-tilte">Economics</h5>
-                        <p>
-                          In Economics department, information is really
-                          importance to have chance to grow and develope
-                          business. Therefore survey result is a part of this
-                          department.
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                         </p>
                       </div>
                     </div>
@@ -170,21 +117,12 @@
                         ></a>
                       </div>
                       <div class="icon-content">
-<<<<<<< HEAD
                         <h5 class="rdx-tilte">Y học</h5>
                         <p>
                          Khảo sát những người sẵn sàng trả tiền để có được
                            vắc xin và khả năng chi trả tối đa cho bất kỳ
                            thuốc thực sự là quan trọng.Điều này có thể quyết định
                            khả năng sản xuất thuốc
-=======
-                        <h5 class="rdx-tilte">Medical</h5>
-                        <p>
-                          Survey to People who willing to pay money to get
-                          vaccine and maxium ability to pay for any special
-                          medicine is really importance. Which can decide
-                          ability of medicine to manufacturing
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                         </p>
                       </div>
                     </div>
@@ -197,17 +135,10 @@
                         ></a>
                       </div>
                       <div class="icon-content">
-<<<<<<< HEAD
                         <h5 class="rdx-tilte">Cảm xúc</h5>
                         <p>
                          Cuộc khảo sát về cảm xúc có thể giúp con người có thể cảm thông
                            và vui vẻ.
-=======
-                        <h5 class="rdx-tilte">Emotion</h5>
-                        <p>
-                          The survey about emotion can help human can sympathy
-                          and happy.
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                         </p>
                       </div>
                     </div>
@@ -220,17 +151,10 @@
                         ></a>
                       </div>
                       <div class="icon-content">
-<<<<<<< HEAD
                         <h5 class="rdx-tilte">Tiêu chuẩn công nghệ</h5>
                         <p>
                           Vì vậy, chúng tôi cung cấp bất kỳ dịch vụ nào cho khách hàng để có được bất kỳ
                            những thứ bạn cần
-=======
-                        <h5 class="rdx-tilte">Qualified technology</h5>
-                        <p>
-                          So we provide any service to our customers to get any
-                          things you need
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                         </p>
                       </div>
                     </div>
@@ -243,15 +167,9 @@
                         ></a>
                       </div>
                       <div class="icon-content">
-<<<<<<< HEAD
                         <h5 class="rdx-tilte">24/7 Hổ trợ</h5>
                         <p>
                          Chúng tôi hy vọng có cơ hội hợp tác với bạn!!!
-=======
-                        <h5 class="rdx-tilte">24/7 Supports</h5>
-                        <p>
-                          We hope to have chance to support you!!!
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                         </p>
                       </div>
                     </div>
@@ -321,17 +239,10 @@
         <div class="section-full bg-gray content-inner">
           <div class="container">
             <div class="section-head text-center ">
-<<<<<<< HEAD
               <h2 class="title">Đội ngũ</h2>
               <p>
               Có nhiều thành viên trong nền tảng của chúng tôi. Nhưng bây giờ tôi sẽ chỉ cho bạn
                  về các thành viên chủ chốt của ESurvey
-=======
-              <h2 class="title">Meet The Teacher</h2>
-              <p>
-                There are many members in our platform. But now I will show you
-                about ESurvey key members
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
               </p>
             </div>
             <div class="row">
@@ -434,111 +345,7 @@
                     </ul>
                   </div>
                 </div>
-<<<<<<< HEAD
               </div> 
-=======
-              </div>
-              <div
-                class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.6s"
-              >
-                <div class="dlab-box m-b30 dlab-team1">
-                  <div class="dlab-media">
-                    <a href="teachers-profile.html">
-                      <img
-                        id="IdOfLuisImage"
-                        width="358"
-                        height="460"
-                        alt=""
-                        src="images/our-team/preview.jpg"
-                        class="lazy"
-                        data-src="images/our-team/pic15.jpg"
-                      />
-                    </a>
-                  </div>
-                  <div class="dlab-info">
-                    <h4 class="dlab-title">
-                      <a href="teachers-profile.html">Luis Nguyen</a>
-                    </h4>
-                    <span class="dlab-position">Developer</span>
-                    <ul class="dlab-social-icon dez-border">
-                      <li>
-                        <a
-                          class="fa fa-facebook"
-                          href="javascript:void(0);"
-                        ></a>
-                      </li>
-                      <li>
-                        <a class="fa fa-twitter" href="javascript:void(0);"></a>
-                      </li>
-                      <li>
-                        <a
-                          class="fa fa-linkedin"
-                          href="javascript:void(0);"
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          class="fa fa-pinterest"
-                          href="javascript:void(0);"
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.8s"
-              >
-                <div class="dlab-box m-b30 dlab-team1">
-                  <div class="dlab-media">
-                    <a href="teachers-profile.html">
-                      <img
-                        id="IdOfLeoImage"
-                        width="358"
-                        height="460"
-                        alt=""
-                        src="images/our-team/preview.jpg"
-                        class="lazy"
-                        data-src="images/our-team/pic18.jpg"
-                      />
-                    </a>
-                  </div>
-                  <div class="dlab-info">
-                    <h4 class="dlab-title">
-                      <a href="teachers-profile.html">Leo Lee</a>
-                    </h4>
-                    <span class="dlab-position">Manager</span>
-                    <ul class="dlab-social-icon dez-border">
-                      <li>
-                        <a
-                          class="fa fa-facebook"
-                          href="javascript:void(0);"
-                        ></a>
-                      </li>
-                      <li>
-                        <a class="fa fa-twitter" href="javascript:void(0);"></a>
-                      </li>
-                      <li>
-                        <a
-                          class="fa fa-linkedin"
-                          href="javascript:void(0);"
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          class="fa fa-pinterest"
-                          href="javascript:void(0);"
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
             </div>
           </div>
         </div>
@@ -563,17 +370,9 @@ const ipfs = ipfsClient({
 export default {
   name: "listSurvey",
   async created() {
-<<<<<<< HEAD
     await this.getSurveyExpectByAddress();
     await this.getMyImage();
     await this.getHeoImage();
-=======
-    await this.getMyImage();
-    await this.getHeoImage();
-    await this.getLeoImage();
-    await this.getLuisImage();
-    this.getSurveyExpectByAddress();
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
   },
   data() {
     return {
@@ -688,35 +487,6 @@ export default {
       var image = document.getElementById("IdOfHeoImage");
       image.src = "data:image/png;base64," + this.encode(bytes);
     },
-<<<<<<< HEAD
-=======
-    getLuisImage: async function() {
-      // get image in ipfs
-      const chunks = [];
-      const result = await ipfs.cat(
-        "QmUL22izCLNiYJY92CvhHRKjzZC887kpkvC81RfyYHbs88"
-      );
-      for (const chunk of result) {
-        chunks.push(chunk);
-      }
-      var bytes = new Uint8Array(chunks);
-      var image = document.getElementById("IdOfLuisImage");
-      image.src = "data:image/png;base64," + this.encode(bytes);
-    },
-     getLeoImage: async function() {
-      // get image in ipfs
-      const chunks = [];
-      const result = await ipfs.cat(
-        "QmQ3DvZHbx2qvS2sNsPnpX88moVG47k85bijGWoWr7EAhy"
-      );
-      for (const chunk of result) {
-        chunks.push(chunk);
-      }
-      var bytes = new Uint8Array(chunks);
-      var image = document.getElementById("IdOfLeoImage");
-      image.src = "data:image/png;base64," + this.encode(bytes);
-    },
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
     encode(input) {
       var keyStr =
         "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
