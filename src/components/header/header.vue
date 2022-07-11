@@ -14,13 +14,8 @@
 						<ul>
 							<li><i class="la la-clock"></i>Mon - Fri 8.00 - 18.00</li>
 							<li><i class="las la-envelope-open"></i>itvts@gmail.com</li>
-<<<<<<< HEAD
 							<li v-show="this.isLogged"><i>Chào mừng  {{username}}</i></li>
 							<li v-show="this.isLogged"><button v-on:click="Logout" class="btn btn-primary btn-sm">Đăng xuất</button></li>
-=======
-							<li v-show="this.isLogged"><i>Welcome  {{username}}</i></li>
-							<li v-show="this.isLogged"><button v-on:click="Logout" class="btn btn-primary btn-sm">Logout</button></li>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
 						</ul>				
 					</div>
 				</div>
@@ -54,20 +49,16 @@
 						</div>
                         <ul class="nav navbar-nav">	
 							<li class="active">
-								<router-link to="/">Home</router-link>
+								<router-link to="/">Trang chủ</router-link>
 							</li>
 							<li>
-								<router-link to="/about">About us</router-link>
+								<router-link to="/about">Về chúng tôi</router-link>
 							</li>
 							<li>
-<<<<<<< HEAD
 								<router-link to="/survey/list">Khảo sát của tôi</router-link>
 							</li>
 							<li>
 								<a href="https://app.uniswap.org/#/swap?chain=ropsten">Đổi token hệ thống</a>
-=======
-								<router-link to="/survey/list">My Survey</router-link>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
 							</li>
 						</ul>
 						<div class="dlab-social-icon">

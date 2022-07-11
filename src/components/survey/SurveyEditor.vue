@@ -1,16 +1,9 @@
 <template>
     <div>
-<<<<<<< HEAD
       <!-- <b-button variant="primary" v-show="loading" class="load">
       <b-spinner type="grow"></b-spinner>
       Loading...
     </b-button> -->
-=======
-      <b-button variant="primary" v-show="loading" class="load">
-      <b-spinner type="grow"></b-spinner>
-      Loading...
-    </b-button>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
       <div id="surveyEditorContainer">
     </div>
     </div>

@@ -6,39 +6,23 @@
                 <div class="row">
 					<div class="col-xl-3 col-lg-3 col-md-6 col-5 col-sm-6 footer-col-4 col-12">
                         <div class="widget widget_about border-0">
-<<<<<<< HEAD
 							<h5 class="footer-title">Về chúng tôi</h5>
 							<p class="mm-t5">Trái ngược với suy nghĩ thông thường, chúng tôi hy vọng có cơ hội mang lại nhiều lợi ích và giá trị hơn cho khách hàng của chúng tôi</p>
 							<ul class="contact-info-bx">
                                 <li><i class="las la-map-marker"></i><strong>Địa chỉ:</strong> 613 Nguyễn Tất Thành </li>
                                 <li><i class="las la-phone-volume"></i><strong>Số điện thoại:</strong> 0800-123456</li>
-=======
-							<h5 class="footer-title">About Us</h5>
-							<p class="mm-t5">Contrary to popular belief, we hope to have chance to give more benefit and value to our customer</p>
-							<ul class="contact-info-bx">
-                                <li><i class="las la-map-marker"></i><strong>Address:</strong> 613 Nguyen Tat Thanh </li>
-                                <li><i class="las la-phone-volume"></i><strong>Phone:</strong> 0800-123456</li>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
 								<li><i class="las la-envelope-open"></i><strong>Email:</strong> info@esurvey.com</li>
                             </ul>
                         </div>
                     </div>
 					<div class="col-xl-3 col-lg-4 col-md-6 col-7 col-sm-6 footer-col-4 col-12">
                         <div class="widget border-0 recent-posts-entry">
-<<<<<<< HEAD
                             <h5 class="footer-title">Khảo sát mới nhất</h5>
-=======
-                            <h5 class="footer-title">Latest Survey</h5>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
 							<div class="widget-post-bx">
 								<div class="widget-post clearfix">
 									<div class="dlab-post-info">
 										<div class="dlab-post-header">
-<<<<<<< HEAD
 											<h6 class="post-title"><a >Làm thế nào để phát triển kỹ năng lập trình.</a></h6>
-=======
-											<h6 class="post-title"><a >How to grow with developer.</a></h6>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
 										</div>
 										<div class="dlab-post-meta">
 											<ul>
@@ -66,19 +50,11 @@
                         <div class="widget widget_services border-0">
 							<h5 class="footer-title">Liên kết hữu ích</h5>
 							<ul class="mm-t10">
-<<<<<<< HEAD
 								<li><router-link to="about">Về chúng tôi</router-link></li>
 								<li>Bài viết</li>
 								<li>Dịch vụ</li>
 								<li>Chính sách</li>
 								<li>Dự án</li>
-=======
-								<li><router-link to="about">About Us</router-link></li>
-								<li>Blog</li>
-								<li>Services</li>
-								<li>Privacy Policy</li>
-								<li>Projects</li>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
 							</ul>
 						</div>
                     </div>

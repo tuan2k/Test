@@ -7,11 +7,7 @@
       >
         <div class="container">
           <div class="dlab-bnr-inr-entry">
-<<<<<<< HEAD
             <h1 class="text-white">Khảo sát của tôi</h1>
-=======
-            <h1 class="text-white">My Survey</h1>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
           </div>
         </div>
       </div>
@@ -27,11 +23,7 @@
             </div>
         <div class="container">
           <button class="btn btn-primary " v-on:click="createSurvey()">
-<<<<<<< HEAD
                 Tạo khảo sát
-=======
-                create survey
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
           </button>
           <br/> <br/>
           <div
@@ -53,19 +45,11 @@
                   <div class="dlab-post-meta">
                     <ul>
                       <li class="post-author">
-<<<<<<< HEAD
                         <i class="la la-user-circle"></i> Bởi
                         <a href="javascript:void(0);">{{ survey.name}}</a>
                       </li>
                       <li class="post-tag">
                         <a href="javascript:void(0);">Khảo sát</a>
-=======
-                        <i class="la la-user-circle"></i> By
-                        <a href="javascript:void(0);">{{ survey.name}}</a>
-                      </li>
-                      <li class="post-tag">
-                        <a href="javascript:void(0);">KNOWLEDGE</a>
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                       </li>
                     </ul>
                   </div>
@@ -92,30 +76,17 @@
                       <span
                         v-on:click="viewSurvey(survey.id, survey.hash)"
                         class="btn-info btn-sm"
-<<<<<<< HEAD
                         >Xem</span
-=======
-                        >View</span
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                       >
                       <span
                         v-on:click="analysisSurvey(survey.id, survey.hash)"
                         class="btn-primary btn-sm"
-<<<<<<< HEAD
                         >Phân tích</span>
                       <!-- <span
                         class="btn-danger btn-sm"
                         v-on:click="deleteSurvey(1)"
                         >List user do</span
                       > -->
-=======
-                        >Analysis</span>
-                      <span
-                        class="btn-danger btn-sm"
-                        v-on:click="deleteSurvey(1)"
-                        >List user do</span
-                      >
->>>>>>> 4d9d3589fe4f294097a99fd481dc9c6b9660277f
                     </div>
                   </div>
                 </div>
